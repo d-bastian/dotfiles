@@ -1,0 +1,20 @@
+[colors.primary]
+background = "0x171717"
+foreground = "0xe4e4ef"
+
+[cursor]
+thickness = 0.5
+
+[font]
+size = 14.0
+normal = { family = "JetBrainsMono NFM", style = "Regular" } 
+
+[window]
+decorations = "None"
+dynamic_title = true
+padding = { x = 14, y = 14}
+dynamic_padding = true
+opacity = 0.4
+
+[terminal]
+shell = { program = "/usr/bin/zsh", args = ["-l"] }

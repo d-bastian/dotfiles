@@ -1,0 +1,58 @@
+* {
+    bg: #262727;
+    text-color: #F6DDB9;
+    text-alt-color: #4B4C4B;
+
+    size-sm: 6px;
+    size-lg: 12px;
+    background-color: @bg;
+}
+
+window {
+    fullscreen: false;
+    location: center;
+    width: 480px;
+}
+
+mainbox {
+    padding: @size-lg;
+    border-radius: @size-lg;
+}
+
+
+inputbar {
+    children: [prompt, textbox-prompt-colon, entry, case-indicator];
+    margin: 10px;
+}
+
+
+prompt {
+    text-color: @text-color;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: " > ";
+    text-color: @text-alt-color;
+}
+
+
+entry {
+    text-color: @text-color;
+}
+
+
+listview {
+    spacing: @size-sm;
+    fixed-height: false;
+    dynamic: true;
+}
+
+element {
+    padding: @size-sm;
+    spacing: @size-sm;
+}
+
+element-text {
+    cursor: pointer;
+}
