@@ -1,20 +1,18 @@
 [colors.primary]
-background = "0x171717"
+background = "0x262727"
 foreground = "0xe4e4ef"
-
 [cursor]
 thickness = 0.5
 
 [font]
 size = 14.0
-normal = { family = "JetBrainsMono NFM", style = "Regular" } 
-
-[window]
-decorations = "None"
-dynamic_title = true
-padding = { x = 14, y = 14}
-dynamic_padding = true
-opacity = 0.4
+normal = { family = "Hack Nerd Font", style = "Regular" } 
 
 [terminal]
-shell = { program = "/usr/bin/zsh", args = ["-l"] }
+shell = "/usr/bin/zsh" 
+
+[window]
+padding = {x=4, y=4}
+dynamic_padding = true
+decorations = "None"
+
